@@ -1,0 +1,139 @@
+body {background-color: ghostwhite;}
+nav a {color: #3a434b;
+         margin-right: 100px; }
+
+nav {font-size: 15px;
+    text-align: center;}
+.inicio {padding-top: 20px; ;
+         padding-right: 40px ;
+         padding-bottom: 40px;
+         padding-left: 40px;}
+
+
+
+footer a {color: #3a434b;
+            font-size: 12px; }
+.derechos {color: #3a434b;
+            font-size: 12px; 
+            position: fixed;
+            bottom: 0;
+            right: 0;}
+
+.img { width: 100%;}
+
+/* fin de inicio */
+
+/* inicio de nosotros */
+
+.nosotros {color: #3a434b;
+            padding: 20px 40px ;
+             margin-right: 100px;
+              font-size: 15px; }
+
+
+
+.somos {font-family:'Times New Roman', Times, serif;
+        color: #3a434b;
+        padding-top: 40px;    
+        margin-left: 10px; 
+        text-align: left; 
+        text-decoration: underline; 
+}
+
+.contenedor {
+    width: 100%;
+}
+
+.imgdelantera {
+    float: left ;
+    margin-right:10px;
+}
+
+p {margin-left: 10px;
+    font-size: larger;
+    color: #3a434b;}
+
+    /* fin nosotros */
+
+    /* inicio de servicios */
+
+   
+ .navserv {padding: 20px 40px;}
+
+
+    .contiene {
+    display: flex;
+    align-items: center;
+    }
+
+    .imagenservicio { margin-right: 10px;
+                     padding-top: 40px;}
+
+    ul {list-style-type:circle;
+        margin:20px;
+        padding: 0;}
+
+    li {margin-bottom: 30px;}
+    /* fin servicios */
+
+    /* inicio galeria */
+
+ *{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+   
+    .navgal{padding: 20px 40px;}
+ 
+.linea {
+    border-top: 5px solid orange;
+    
+}
+
+.contenedor-imagenes {
+    display: flex;
+    width: 85%;
+    margin:auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height: 400px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* fin de galeria */
+
+/* inicio de contacto */
+
+.navcontact {padding: 20px 40px;}
+
+.horario {padding-top: 20px;
+    color: #3a434b;
+text-align: left;}
+.redes{width: 5%;
+    height: 5%;}
+
+ .contenedor-maps {
+        display: flex;
+        align-items: center;
+    }
+ .lista-redes{
+            list-style-type:circle;
+             margin:20px;
+             padding: 0;}
+.li-redes{margin-bottom: 30px;
+}
+/* fin de contacto */
+
+
