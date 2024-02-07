@@ -18,26 +18,27 @@ body {background-color: ghostwhite;}
 
 /* inicio de nosotros */
 
-.somos {font-family:'Times New Roman', Times, serif;
+.somos {display: flex;
+    font-family:'Times New Roman', Times, serif;
         color: #3a434b;
-        padding-top: 40px;    
-        margin-left: 10px; 
-        text-align: left; 
+        padding-top: 15px;    
+        margin-left: 10px;  
         text-decoration: underline; 
-}
-
-    .contenedor {
-    width: 100%;
-}
-
-        .imgdelantera {
-    float: left ;
-    margin-right:10px;
-}
-
-        p {margin-left: 10px;
+    }
+    .somos-parrafo {
+    display: flex;
+    padding-top: 15px;
+    margin-left: 10px;
+    color: #3a434b;
     font-size: larger;
-    color: #3a434b;}
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+
+        .imgdelantera {display: flex;
+            float: right ;
+            width: 100%
+        }
 
     /* fin nosotros */
 
@@ -48,14 +49,17 @@ body {background-color: ghostwhite;}
     align-items: center;
     }
 
-    .imagenservicio { margin-right: 10px;
+    .imagenservicio {width: 500px;
+                    margin-right: 10px;
                      padding-top: 20px;}
 
-     ul {list-style-type:circle;
+    
+     .ul-servicios {list-style-type:circle;
         margin:20px;
         padding: 0;}
 
-         li {margin-bottom: 30px;}
+         .li-servicios {margin-bottom: 30px;
+            flex: 1;}
     /* fin servicios */
 
     /* inicio galeria */
@@ -152,4 +156,26 @@ text-align: left;}
 }
 /* fin de contacto */
 
+@media only screen and (max-width: 480px) {
+    .imagen-inicio {
+       padding-top: 50px;
+       
+    }
+    
+    .imagenservicio {
+        width: 80%;
+    }
+    .contiene {
+        flex-direction: column;
+    }
+}
 
+@media only screen and (min-width: 481px) and (max-width: 980px)
+{ .imagenservicio {
+    width: 80%;
+}
+.contiene {
+    flex-direction: column;
+}
+    
+}
