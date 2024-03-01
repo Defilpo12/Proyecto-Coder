@@ -1,0 +1,14 @@
+%listas {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.li-servicios{
+    background-color: black;
+    @extend %listas
+}
+.lista-redes{
+    background-color: black;
+    @extend %listas
+}

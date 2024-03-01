@@ -1,0 +1,76 @@
+body {
+  background-color: ghostwhite;
+}
+body .inicio {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+body .derechos {
+  color: orange;
+  font-size: 12px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+body .img {
+  width: 100%;
+}
+
+.somos {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  color: #3a434b;
+  padding-top: 15px;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.somos-parrafo {
+  display: flex;
+  padding-top: 15px;
+  margin-left: 10px;
+  color: #3a434b;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.imgdelantera {
+  display: flex;
+  float: right;
+  width: 100%;
+}
+
+.horario {
+  color: rgba(220, 146, 9, 0.926);
+}
+
+.horario {
+  color: rgba(220, 146, 9, 0.926);
+}
+
+.lista-redes, .li-servicios {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.li-servicios {
+  background-color: black;
+}
+
+.lista-redes {
+  background-color: black;
+}
+
+footer {
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

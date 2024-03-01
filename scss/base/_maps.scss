@@ -1,0 +1,10 @@
+$bg-user: (
+    color-standar: rgba(220, 146, 9, 0.926),
+    border-standar: 1px dotted gray,
+    font-size-standar: 20px
+);
+
+
+.horario {
+    color: map-get($bg-user , color-standar );
+}

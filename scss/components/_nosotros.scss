@@ -1,0 +1,23 @@
+@import "../base/variables";
+
+.somos {display: flex;
+    font-family:'Times New Roman', Times, serif;
+        color: $color-parrafo;
+        padding-top: 15px;    
+        margin-left: 10px;  
+        text-decoration: underline; 
+    }
+    .somos-parrafo {
+    display: flex;
+    padding-top: 15px;
+    margin-left: 10px;
+    color: $color-parrafo;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+
+        .imgdelantera {display: flex;
+            float: right ;
+            width: 100%
+        }
