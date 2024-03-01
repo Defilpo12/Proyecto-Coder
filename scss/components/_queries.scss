@@ -1,0 +1,23 @@
+@media only screen and (max-width: 480px) {
+    .imagen-inicio {
+       padding-top: 50px;
+       
+    }
+    
+    .imagenservicio {
+        width: 80%;
+    }
+    .contiene {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 980px)
+{ .imagenservicio {
+    width: 80%;
+}
+.contiene {
+    flex-direction: column;
+}
+    
+}

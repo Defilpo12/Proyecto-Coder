@@ -1,3 +1,27 @@
+.lista-redes, .li-servicios {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.li-servicios {
+  background-color: black;
+}
+
+.lista-redes {
+  background-color: black;
+}
+
+footer {
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
 body {
   background-color: ghostwhite;
 }
@@ -14,6 +38,30 @@ body .derechos {
   bottom: 0;
 }
 body .img {
+  width: 100%;
+}
+
+.li-servicios, .lista-redes {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.li-servicios {
+  background-color: black;
+}
+
+.lista-redes {
+  background-color: black;
+}
+
+footer {
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
 }
 
@@ -41,15 +89,214 @@ body .img {
   width: 100%;
 }
 
-.horario {
-  color: rgba(220, 146, 9, 0.926);
+.li-servicios, .lista-redes {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.li-servicios {
+  background-color: black;
+}
+
+.lista-redes {
+  background-color: black;
+}
+
+footer {
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.contiene {
+  display: flex;
+  align-items: center;
+}
+
+.imagenservicio {
+  width: 500px;
+  margin-right: 10px;
+  padding-top: 20px;
+}
+
+.ul-servicios {
+  list-style-type: circle;
+  margin: 20px;
+  padding: 0;
+}
+
+.li-servicios {
+  margin-bottom: 30px;
+  flex: 1;
+}
+
+.li-servicios, .lista-redes {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.li-servicios {
+  background-color: black;
+}
+
+.lista-redes {
+  background-color: black;
+}
+
+footer {
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.linea {
+  border-top: 5px solid orange;
+}
+
+.contenedor-imagenes {
+  display: flex;
+  width: 85%;
+  margin: 0px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px;
+}
+
+.contenedor-imagenes .imagenes {
+  width: 100%;
+  position: relative;
+  height: 400px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 3px 0px rgb(0, 0, 0);
+}
+
+.imagenes img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: #3a434b;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(250px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+
+.li-servicios, .lista-redes {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.li-servicios {
+  background-color: black;
+}
+
+.lista-redes {
+  background-color: black;
+}
+
+footer {
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .horario {
   color: rgba(220, 146, 9, 0.926);
 }
 
-.lista-redes, .li-servicios {
+.horario {
+  padding-top: 20px;
+  color: #3a434b;
+  text-align: left;
+}
+
+.redes {
+  width: 30px;
+}
+
+.contenedor-maps {
+  display: flex;
+  align-items: center;
+}
+
+.lista-redes {
+  list-style-type: circle;
+  margin: 20px;
+  padding: 0;
+}
+
+.li-redes {
+  margin-bottom: 30px;
+  display: inline;
+}
+
+@media only screen and (max-width: 480px) {
+  .imagen-inicio {
+    padding-top: 50px;
+  }
+  .imagenservicio {
+    width: 80%;
+  }
+  .contiene {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 980px) {
+  .imagenservicio {
+    width: 80%;
+  }
+  .contiene {
+    flex-direction: column;
+  }
+}
+.horario {
+  color: rgba(220, 146, 9, 0.926);
+}
+
+.li-servicios, .lista-redes {
   border: 1px solid black;
   padding: 8px;
   border-radius: 4px;

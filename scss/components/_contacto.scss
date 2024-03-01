@@ -1,2 +1,22 @@
 @import "../base/variables";
-@import "../base/maps"
+@import "../base/extends";
+@import "../base/mixins";
+@import "../base/maps";
+
+.horario {padding-top: 20px;
+    color: #3a434b;
+text-align: left;}
+.redes{width: 30px}
+
+ .contenedor-maps {
+        display: flex;
+        align-items: center;
+    }
+ .lista-redes{
+            list-style-type:circle;
+             margin:20px;
+             padding: 0;}
+.li-redes{margin-bottom: 30px;
+    display: inline;
+    
+}

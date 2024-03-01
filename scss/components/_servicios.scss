@@ -1,1 +1,20 @@
-@import "../base/variables"
+@import "../base/variables";
+@import "../base/extends";
+@import "../base/mixins";
+
+.contiene {
+    display: flex;
+    align-items: center;
+    }
+
+    .imagenservicio {width: 500px;
+                    margin-right: 10px;
+                     padding-top: 20px;}
+
+    
+     .ul-servicios {list-style-type:circle;
+        margin:20px;
+        padding: 0;}
+
+         .li-servicios {margin-bottom: 30px;
+            flex: 1;}
