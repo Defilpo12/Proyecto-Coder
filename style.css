@@ -1,12 +1,17 @@
-body {background-color: ghostwhite;}
+body {background-color: #ff5733}
 
-.inicio {padding-top: 20px; ;
-         padding-right: 40px ;
-         padding-left: 40px;}
+.bg-color {
+  background-color: #ff5733;
+}
+
+.text-white {
+  color: #e4e8ec;
+}
+.inicio {padding: 0px}
 
 
     .derechos {
-            color:orange;
+            color:#e4e8ec;
             font-size: 12px; 
             position: fixed;
              right: 0;
@@ -20,7 +25,7 @@ body {background-color: ghostwhite;}
 
 .somos {display: flex;
     font-family:'Times New Roman', Times, serif;
-        color: #3a434b;
+        color: #e4e8ec;
         padding-top: 15px;    
         margin-left: 10px;  
         text-decoration: underline; 
@@ -29,7 +34,7 @@ body {background-color: ghostwhite;}
     display: flex;
     padding-top: 15px;
     margin-left: 10px;
-    color: #3a434b;
+    color:#e4e8ec ;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     }
@@ -101,7 +106,8 @@ body {background-color: ghostwhite;}
         padding: 0;}
 
          .li-servicios {margin-bottom: 30px;
-            flex: 1;}
+            flex: 1;
+            color: #e4e8ec;}
     /* fin servicios */
 
     /* inicio galeria */
@@ -180,7 +186,7 @@ body {background-color: ghostwhite;}
 
 
 .horario {padding-top: 20px;
-    color: #3a434b;
+    color: #e4e8ec;
 text-align: left;}
 .redes{width: 30px}
 
@@ -200,7 +206,7 @@ text-align: left;}
 
 @media only screen and (max-width: 480px) {
     .imagen-inicio {
-       padding-top: 50px;
+       padding-top: 80px;
        
     }
     
@@ -213,7 +219,11 @@ text-align: left;}
 }
 
 @media only screen and (min-width: 481px) and (max-width: 980px)
-{ .imagenservicio {
+{ .imagen-inicio {
+  padding-top: 70px;
+}
+  
+  .imagenservicio {
     width: 80%;
 }
 .contiene {

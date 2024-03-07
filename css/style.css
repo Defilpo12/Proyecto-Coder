@@ -30,8 +30,14 @@ body .inicio {
   padding-right: 40px;
   padding-left: 40px;
 }
+body .bg-color {
+  background-color: #ff5733;
+}
+body .text-white {
+  color: #e4e8ec;
+}
 body .derechos {
-  color: orange;
+  color: #e4e8ec;
   font-size: 12px;
   position: fixed;
   right: 0;
@@ -68,7 +74,7 @@ footer {
 .somos {
   display: flex;
   font-family: "Times New Roman", Times, serif;
-  color: #3a434b;
+  color: #e4e8ec;
   padding-top: 15px;
   margin-left: 10px;
   text-decoration: underline;
@@ -78,7 +84,7 @@ footer {
   display: flex;
   padding-top: 15px;
   margin-left: 10px;
-  color: #3a434b;
+  color: #e4e8ec;
   font-size: larger;
   font-family: "Times New Roman", Times, serif;
 }
@@ -148,7 +154,7 @@ footer {
 }
 
 .imagenservicio {
-  width: 500px;
+  width: 900px;
   margin-right: 10px;
   padding-top: 20px;
 }
@@ -157,6 +163,7 @@ footer {
   list-style-type: circle;
   margin: 20px;
   padding: 0;
+  color: #e4e8ec;
 }
 
 .li-servicios {
@@ -304,7 +311,7 @@ footer {
 
 @media only screen and (max-width: 480px) {
   .imagen-inicio {
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .imagenservicio {
     width: 80%;
@@ -314,6 +321,9 @@ footer {
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 980px) {
+  .imagen-inicio {
+    padding-top: 90px;
+  }
   .imagenservicio {
     width: 80%;
   }
