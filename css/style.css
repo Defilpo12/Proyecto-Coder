@@ -23,7 +23,7 @@ footer {
 }
 
 body {
-  background-color: ghostwhite;
+  background-color: #ff7f50;
 }
 body .inicio {
   padding-top: 20px;
@@ -31,7 +31,7 @@ body .inicio {
   padding-left: 40px;
 }
 body .bg-color {
-  background-color: #ff5733;
+  background-color: #ff7f50;
 }
 body .text-white {
   color: #e4e8ec;
